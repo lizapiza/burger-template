@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BurgerWeb</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	
+</head>
+<body>
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+			<img src="img/gochitlogo.jpg">
+		</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" 
+            data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto navbar-a">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link nav-link-font">მთავარი</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-font">ჩვენს შესახებ</a>
+                    </li>
+                    <li class="nav-item ">
+
+                        <a href="#" class="nav-link nav-link-font">სერვისები</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-font">ჩვენი გუნდი</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-font">კონტაქტი</a>
+                    </li>
+                    
+                </ul>
+            </div>  
+    </div>
+</nav>
+
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="image-class" src="img/burger1.jpg" alt="background">
+            <div class="carousel-caption">
+				<h1 class="display-2">X 5 ბურგერი</h1>
+				<h3>დააგემოვნეთ მონსტერ ბურგერი</h3>
+				<button type="button" class="btn btn-outline-light btn-lg">
+				მეტის გაგება</button>
+				<button type="button" class="btn btn-primary btn-lg">
+					გამოძახება
+				</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="image-class" src="img/burger2.jpg" alt="background">
+        </div>
+        <div class="carousel-item">
+            <img class="image-class" src="img/burger-menu.jpg" alt="background3">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p>Gochit's სწრაფი კვების ბარი სადაც შეგიძლიათ მიირთვათ უგემრიელესი ბურგერები.
+				ასევე ჩვენ გვაქვს ფეისბუქ გვერდი, სადაც ვდებთ განცხადებებს სიახლეებთან დაკავშირებით.
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="https://www.facebook.com/gochits/?ref=page_internal"target="_blank"><button class="btn btn-outline-secondary btn-lg"
+			type="button">
+				დააჭირე აქ
+		</button></a>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container-fluid padding">
+	<div class="row Welcome text-center welcome-css">
+		<div class="col-12">
+			<h1 class="display-4">გოჩიტს ბურგერი</h1>
+			
+			<div class="col-12">
+				<p class="lead">ქვეყანაში არსებული ეპიდსიტუაციისა და რეგულაციებიდან გამომდინარე, "გოჩიტს ბურგერი" სრულ, დისტანციურ მომსახურებაზე გადადის.
+					
+					შენ უკვე შეგიძლია, საყვარელი ბურგერი  ჩვენი საკურიერო სერვისით მიიღო.
+					ისარგებლო გლოვოს და ვოლტის აპლიკაციით 
+					ან შეუკვეთოთ და თავად წაიღოთ
+					დაგვიკავშირდით ნომერზე: </p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-motorcycle"></i>
+			<h3 class="">მიტანის სერვისი</h3>
+			<p>ისარგებლო გლოვოს და ვოლტის აპლიკაციით
+				 ან შეუკვეთოთ და თავად წაიღოთ დაგვიკავშირდით ნომერზე.</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-gift"></i>
+			<h3 class="">აქციები</h3>
+			<p>ჩვენს კომპნაია ხალხის გასახალისებლად აწყობს აქციებს.</p>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<i class="fab fa-css3"></i>
+			<h3 class="">მიტანის სერვისი</h3>
+			<p>ჩვენს კომანისას ასევე აქვს ადგილზე მიტანის სერვისი</p>
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6">
+			<h2>If you build it ...</h2>
+			<p>შეგახსენებთ 📣📣📣📣 მონსტერ ბურგერების აქცია გლოვოზე  და Gochit's  ბურგერის ყველა ფილიალში 🙏🙏🙏
+				20 % იანი ფასდაკლება
+				🍔2იქს
+				🍔3იქს
+				🍔5 იქს 
+				მენიუზე
+				 გამოიყენეთ გლოვოს  აპლიკაცია, ან მობრძანდით ფილიალებში 🍔🍔
+				ჩვენი მისამართებია
+				ვაჟა-ფშაველას 58 
+				აღმაშენებლის 149ა
+				ფალიაშვილის 39ა
+				ანგია ბოჭორიშვილის 53
+				ისთ ფოინთი
+				დიღომი, მარი მარკეტი</p>
+			 <br>
+			 <a href="https://www.facebook.com/commerce/products/2505094916228536/?ref=page_home_tab&referral_code=page_shop_card" class="btn btn-primary">Learn more</a>
+		</div>
+		<div class="col-lg-6">
+			<img src="img/53914198_2618504558222288_4692875988541898752_n.jpg" alt="desk" class="img-fluid">
+		</div>
+	</div>
+</div>
+<hr class="my-4">
+
+
+
+<button class="fun" data-toggle="collapse" data-target="#menu">
+	<i class="fas fa-caret-down"></i>	დღის მენიუ
+</button>
+<div id="menu" class="collapse menu-of-day">
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/dgismenu1.png">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/dgismenu2.png">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/dgismenu3.png">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/dgismenu4.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+  
+
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">
+				ბურგერის მენიუების შეთავაზებები
+			</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+<hr class="my-4">
+
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img style="height: 310px;" src="img/ბგ.jpg" alt="team" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">
+						ბურგერების შეთავაზებები
+					</h4>
+					<p class="card-text">
+						🗣 
+
+ისარგებლეთ 25%-იანი ფასდაკლებით ჩვენი ნებისმიერი ბურგერის შეძენისას🍔🍔🍔
+‼️📣აქცია მოქმედებს ერთი კვირის განმავლობაში, ჩვენს ოთხივე ფილიალში😋😋
+
+გელოდებით ყველას:
+📍ვაჟა-ფშაველას 58
+📍აღმაშენებლის 149ა
+📍ისთ ფოინთი
+📍დიღომი,მარი მარკეტი
+					</p>
+					
+				</div>
+				<a href="#" class="btn btn-outline-secondary">See profile</a>
+			</div>
+			
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img style="height: 310px;" src="img/egaa.jpg" alt="team" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">
+						ბურგერების შეთავაზებები
+					</h4>
+					<p class="card-text">
+						📣შეიძინე 3X მონსტერ ბურგერის კომბო მენიუ და მიიღე მეორე მენიუ საჩუქრად🍔🍟🥤
+						ვიცით რომ ყოველთვის ელით სიახლეებს გოჩიტსისგან🤗🤗🎉
+						აქცია მოქმედებს:
+						📍ვაჟა-ფშაველას 58
+						📍აღმაშენებლის 149ა
+						📍ისთ ფოინთი
+						📍დიღომი,მარი მარკეტი
+						
+					</p>
+				</div>
+				<a href="#" class="btn btn-outline-secondary">See profile</a>
+			</div>
+			
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img style="height: 310px;" src="img/ee.jpg" alt="team" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">
+						ბურგერების შეთავაზებები
+					</h4>
+					<p class="card-text">
+						📣შეიძინე 3X მონსტერ ბურგერის კომბო მენიუ და მიიღე მეორე მენიუ საჩუქრად🍔🍟🥤
+						 ვიცით რომ ყოველთვის ელით სიახლეებს გოჩიტსისგან🤗🤗🎉 აქცია მოქმედებს: 📍ვაჟა-ფშაველას 58 📍აღმაშენებლის 149ა 📍ისთ ფოინთი 📍დიღომი,მარი მარკეტი
+					</p>
+					
+				</div>
+				<a href="#" class="btn btn-outline-secondary">See profile</a>
+			</div>
+			
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Connect</h2>
+			<div class="col-12 social padding">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="container-fluid padding gochit-logo">
+	<div class="row text-center">
+		<div class="col-md-4">
+			<img src="img/gochitlogo.jpg">
+			<hr class="light">
+			<p>
+				<i class="fas fa-phone-alt"></i>	+995 555 55 60 88
+				</p>
+			
+			<p>ვაჟა ფშაველას 58
+				0186 Tbilisi, Georgia</p>
+			<p>თბილისი, საქართველო</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h3>Our hours</h3>
+			<hr class="light">
+			<h5>ყოველდღე</h5>
+			<p> 11:00 - 23:00</p>
+			
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>BUSINESS DETAILS</h5>
+			<hr class="light">
+			<p>Price Range  · $$</p>
+			
+		</div>
+		<div class="col-12">
+			<hr class="light">
+			<h5 class="mailto-class">თემფლითის ავტორი - <a href="mailto:liza.khazalia.dmc21@gipa.ge">ლიზა ხაზალია</a></h5>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
